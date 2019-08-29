@@ -1,20 +1,20 @@
 {
   "name": "bk-bot",
-  
-  "description": "A project bot, used to assist in learning JS/Node.js",
-  
-  "version": "0.0.0",
-  
+  "version": "1.0.0",
+  "description": "project bot",
   "main": "bot.js",
-  
-  "scripts": 
-  {
-    "start": "node bot.js"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
-  "dependencies": 
-  {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bkhong93/bk-bot/tree/master"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "node.js": "0.0.0",
+    "save": "^2.4.0"
   }
 }
